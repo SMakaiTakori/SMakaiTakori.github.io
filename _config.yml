@@ -1,11 +1,11 @@
 # Site settings
 author: S. Makai Takori
-title: 
+title: Becoming a Full Stack Developer
 header-img: img/home-bg.png
 email: makait87@gmail.com
 copyright_name: S. Makai Takori
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My journey to becoming a Full Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  SMakaiTakori
