@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Journey into the World of Software Engineering"
-date:       2019-12-21 03:41:41 +0000
+date:       2019-12-20 22:41:42 -0500
 permalink:  my_journey_into_the_world_of_software_engineering
 ---
 
