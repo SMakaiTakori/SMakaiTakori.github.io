@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "My First CLI Project"
-date:       2020-02-16 17:57:09 +0000
+date:       2020-02-16 12:57:10 -0500
 permalink:  my_first_cli_project
 ---
 
 
 Wow, I built my own app from start to finish! I cannot convey all the different emotions that came up from beginning to the middle to the end. I felt excitement, frustration,  and even a bit of anxiety as the deadline approached for me to create a functional app while meeting all the requirements. The most important feeling though, is the one that I feel now, Accomplished! 
 
-Our task was to create an app in which we would build our own Command Line Interface from the ground up, using either the scraping method or an API (Application Programming Interface). The scraper method allows you to pull information from any web page that uses HTML and to use the CSS selectors to literally 'scrape' the specific information you need to return. I chose to build my app using this method because I have been learning about scraping and using this method in many of my Learn.co lessons leading up to our first big project. Scraping a web page is tedious (because you have to pinpoint the exact location of each detail you want returned to the user) . However, I wanted to really apply my newfound knowledge and this project was the perfect opportunity for me to utilize my new skills.
+Our task was to create an app in which we would build our own Command Line Interface from the ground up, using either the scraping method or an API (Application Programming Interface). Scraping allows you to pull information from any web page that uses HTML and to use the CSS selectors to literally 'scrape' the specific information you need to return. I chose to build my app using this method because I have been learning about scraping and using this method in many of my Learn.co lessons leading up to our first big project. Scraping a web page is tedious (because you have to pinpoint the exact location of each detail you want returned to the user) . However, I wanted to really apply my newfound knowledge and this project was the perfect opportunity for me to utilize my new skills.
 
 I decided to build an app that would help users find volunteer opportunities focused on reducing hunger in Atlanta, GA. I am always looking for volunteer opportunities and alot of different sites make it difficult for users to find volunteer opportunities simply because the user interface isn't appealing or doesn't make it easy enough for users to find what they need and I just don't believe volunteering in your community should be that hard.
 
