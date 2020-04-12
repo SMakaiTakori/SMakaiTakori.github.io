@@ -18,10 +18,12 @@ I also learned about the use of cookies and sessions. I have heard of cookies be
 Since HTTP is stateless, meaning each new request is treated as an individual request, the server doesn’t keep track of what or if the user is logged in, unless you have this block of code in your controller :
 
 ```
+
 configure do
  enable :sessions
  set :session_secret, "secret"
 end
+
 ```
 
 By establishing this block in my controller, I essentially was giving each controller action access to sessions when a request is processed. In the controllers, I used this session hash to keep track of each user so the browser and server knew exactly which user was logged in and by extension what views were rendered. For example, I made it so a user can’t see the delete and edit buttons while viewing another user’s wishlist. They are only allowed to see and use these features if they are logged in to their own account and viewing their own wishlists. This is just one example of how important sessions are. If we didn’t keep track of which user was logged in, it would be so easy to manipulate another user’s creations, which we can all agree would not be good user experience. 
