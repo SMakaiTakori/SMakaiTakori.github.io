@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Sinatra - Building the My Wishlist App"
-date:       2020-04-12 18:49:41 +0000
+title:      "Sinatra Project - Building the My Wishlist App"
+date:       2020-04-12 14:49:42 -0400
 permalink:  sinatra_-_building_the_my_wishlist_app
 ---
 
