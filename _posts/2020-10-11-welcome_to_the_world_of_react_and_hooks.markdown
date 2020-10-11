@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Welcome to the World of React and Hooks!"
-date:       2020-10-11 17:55:11 +0000
+date:       2020-10-11 13:55:12 -0400
 permalink:  welcome_to_the_world_of_react_and_hooks
 ---
 
@@ -14,25 +14,33 @@ The official definition of Hooks, according to reactjs.org, is they are function
 
 The State Hook, useState, allowed me to set my state within my functional components. React keeps the state intact even when the component re-renders. For useState, as you can see below in my code, I set the initial state (this can be an object, array, or string depending on what you want returned). In my code below we can see that useState returns the current state value(query, favorite) and also a function that allows you to update it (setQuery, setFavorite). 
 
+```
 const [query, setQuery] = useState('');  
 const [favorite, setFavorite] = useState([]); 
+```
+
 
 This useState Hook can be called on an eventhandler to automatically update the state, like I did in my two different components below. 
 
+```
 const handleClick = (e) => {
         setFavorite([...favorite, e.target.src])
         alert('You saved your pin!')}
-onChange= {(e) => setQuery(e.target.value)}
+```
+				
+`onChange= {(e) => setQuery(e.target.value)}`
 
 This Hook is similar to how this.state and this.setState are used in a class component except for the fact that Hooks don’t require state to be an object if you decide you don’t need that.
 
 The Effect hook, useEffect,  came into play when I needed to implement side effects from my components. Side effects are just operations that can affect other components. Utilizing useEffect allowed me to forego implementing componentDidMount, componentDidUpdate, and componentWillUnmount. This hook basically implements the same functionality as these class methods but bundled into a single API.By default, React runs these side effects after every render and by declaring them inside the component, gives them access to its props and state. 
 
+```
 useEffect(() => {
         fetchCategories();
             if (selected) {
             fetchPins(selected)}
       }, [fetchCategories, selected]);
+```
 
 In the above code, I used this Hook to implement my fetch requests and also was able to utilize my selected state so when users select a category, that selection was passed in to my fetchPins action to search for that specific selection under the condition that the user actually selects something. 
 
