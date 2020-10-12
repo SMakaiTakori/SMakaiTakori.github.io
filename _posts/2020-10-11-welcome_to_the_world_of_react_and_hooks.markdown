@@ -28,7 +28,9 @@ const handleClick = (e) => {
         alert('You saved your pin!')}
 ```
 				
-`onChange= {(e) => setQuery(e.target.value)}`
+```
+onChange= {(e) => setQuery(e.target.value)}
+```
 
 This Hook is similar to how this.state and this.setState are used in a class component except for the fact that Hooks don’t require state to be an object if you decide you don’t need that.
 
