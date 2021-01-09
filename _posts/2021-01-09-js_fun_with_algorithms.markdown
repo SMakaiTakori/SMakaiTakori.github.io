@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JS Fun with Algorithms"
-date:       2021-01-09 22:09:06 +0000
+date:       2021-01-09 17:09:07 -0500
 permalink:  js_fun_with_algorithms
 ---
 
@@ -9,8 +9,8 @@ This past week, I attended my first algorithm centered workshop with the BootCam
 
 The instructions for one of the algorithms were as follows:
 
-// Given a letter, return its position in the alphabet
-// For example, given 'a', return 1, given 'y', return '25' 
+`// Given a letter, return its position in the alphabet
+// For example, given 'a', return 1, given 'y', return '25' `
 
 We agreed that the first thing we wanted to do was create a string representing the alphabet. To do this we decided to write a variable holding the string of alphabet characters to which we would apply the split method, creating an array of alphabet characters.
 
