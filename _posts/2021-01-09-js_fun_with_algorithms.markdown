@@ -22,7 +22,7 @@ Next, we decided that the best approach was for us to iterate over this new arra
 
 It worked! When console logging our function ‘a’ or ‘A’ returned 1, where ‘d’ returned 4.
 
-We then decided to do something I have never actively tried to do, we tried to break our function. We realized that if the user entered a number or any other non-string character into the function, it would break! Also, if each character in the array somehow contained more than one letter(‘abc’, ‘def’,etc...) 0 would be returned. So, using the typeof method we decided to add a validation at the top of our function to prevent this from happening non-string characters from being passed in and added a check for the length of each letter in the array, if either of these were true, null would be returned. 
+We then decided to do something I have never actively tried to do, we tried to break our function. We realized that if the user entered a number or any other non-string character into the function, it would break! Also, if each character in the array somehow contained more than one letter(‘abc’, ‘def’,etc...) 0 would be returned. Using the typeof method we decided to add a validation at the top of our function to prevent non-string characters from being passed in and also added a check for the length of each letter in the array, if either of these were true, null would be returned. 
 
 `if (typeof letter !== 'string' || letter.length > 1) return null`
 
