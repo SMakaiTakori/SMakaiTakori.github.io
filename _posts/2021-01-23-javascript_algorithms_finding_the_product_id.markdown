@@ -13,10 +13,14 @@ I have been focusing on practicing algorithms in JavaScript to strengthen my JS 
 /* Write a function that properly extracts a "Product ID" from a URL. This ID is encoded in the URL in the following way:
 It immediately follows -p-
 It is terminated with -
+```
+```
 Your function should return a string.
-For examples, Given the following URLs 
-example.com/product-p-8099-index.html, your function should return '8099', as it satisfies the above rules. 
-Given example.com/products/gift-p-door801933-edit.html, your function should return 'door801933'. */
+For examples, given the following URLs 
+
+example.com/product-p-8099-index.html, <--your function should return '8099'
+
+example.com/products/gift-p-door801933-edit.html, <-- your function should return 'door801933'. 
 ```
 
 After some deliberation, we decided as a group that using the split method would be the best approach. The split method is given to us by the prototype object in JavaScript and when used on a string, that string is essentially split into an array of substrings, and a new array is returned. With this knowledge we got to work creating a variable that would hold our substrings. This is our final solution, don't worry if you don't understand it, I will break it down below: 
@@ -27,7 +31,7 @@ const extractProductId = url => url.split('-p-')[1].split('-')[0]
 ```
 The Breakdown...
 
-We created an arrow function extractProductId which takes in a url, next we split that initial url on the ‘-p-’ giving us two substrings in an array. So, if the url was example.com/products/gift-p-door801933-edit.html , then we would now have to an array that looks like this :
+We created an arrow function extractProductId which takes in a url, next we split that initial url on the ‘-p-’ giving us two substrings in an array. So, if the url was example.com/products/gift-p-door801933-edit.html , then we would now have an array that looks like this :
 
 ```
 ["example.com/product", "8099-index.html"]
