@@ -7,7 +7,7 @@ permalink:  javascript_algorithms_finding_the_product_id
 
 
  
-I have been focusing on practicing algorithms in JavaScript to strengthen my JS skills and I have been having a lot of fun doing it. There are so many resources out there and the main ones that I’ve found to help me are finding tutorials on YouTube and Udemy along with going to virtual coding meetups. By practicing with other devs, I learn so much by hearing feedback and potential strategies from different points of view for one single problem. It’s pretty cool when I think about it. One challenge we chose to tackle (using JavaScript) had the following instructions:
+I have been focusing on practicing algorithms in JavaScript to strengthen my JS skills and having a lot of fun doing it. There are so many resources out there and the main ones that I’ve found to help me are finding tutorials on YouTube and Udemy along with going to virtual coding meetups. By practicing with other devs, I learn so much by hearing feedback and potential strategies from different points of view for one single problem. It’s pretty cool when I think about it. One challenge we chose to tackle (using JavaScript) had the following instructions:
 
 ```
 /* Write a function that properly extracts a "Product ID" from a URL. This ID is encoded in the URL in the following way:
