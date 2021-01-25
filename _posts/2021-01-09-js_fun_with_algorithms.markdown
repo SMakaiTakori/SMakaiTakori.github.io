@@ -26,17 +26,19 @@ We then decided to do something I have never actively tried to do, we tried to b
 
 `if (typeof letter !== 'string' || letter.length > 1) return null`
 
-Our final solution looked like this.
+Our final solution looked like this:
 
-`const getLetterPosition = letter => {
+```
+const getLetterPosition = letter => {
 if (typeof letter !== 'string' || letter.length > 1) return null
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
-   return alphabet.indexOf(letter.toLowerCase()) + 1;
-}`
- 
-`console.log(getLetterPosition('a')) /// 1
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+return alphabet.indexOf(letter.toLowerCase()) + 1;
+}
+
+console.log(getLetterPosition('a')) /// 1
 console.log(getLetterPosition('A')) /// 1
 console.log(getLetterPosition('d')) /// 4`
+```
 
 We solved some other algorithms as well and each one had its own challenges but with everyone working together it was a really fun way to practice algorithms while also collaborating with other developers. I will be writing more posts on other challenges as we go through them. I am definitely looking forward to the next one. If you want to join us, sign up for their next meetup at this link https://www.meetup.com/Bootcampers-Collective/event
 
