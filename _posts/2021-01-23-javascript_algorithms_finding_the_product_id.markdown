@@ -13,10 +13,11 @@ I have been focusing on practicing algorithms in JavaScript to strengthen my JS 
 /* Write a function that properly extracts a "Product ID" from a URL. This ID is encoded in the URL in the following way:
 It immediately follows -p-
 It is terminated with -
-```
-```
 Your function should return a string.
-For examples, given the following URLs 
+```
+```
+
+For example, given the following URLs 
 
 example.com/product-p-8099-index.html, <--your function should return '8099'
 
