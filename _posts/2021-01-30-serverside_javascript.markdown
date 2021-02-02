@@ -103,6 +103,6 @@ That’s all you have to do to get started! I have included some links below tha
 **Resources :**
 
 Install NPM - [https://www.npmjs.com/package/npm-install](http://)
-Install NPM - [https://nodejs.org/en/](http://)
-Install NPM - [ https://github.com/SMakaiTakori/ServerSideJS](http://)
+Install Node.js - [https://nodejs.org/en/](http://)
+Gihub Repo - [ https://github.com/SMakaiTakori/ServerSideJS](http://)
 
