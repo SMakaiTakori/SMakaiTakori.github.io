@@ -101,8 +101,8 @@ app.get("/name/:enteredName", (request, response) => {
 That’s all you have to do to get started! I have included some links below that you would need for setup, along with my repo with the code for this blog. I encourage you to try this out for yourself and see what you can do. Happy Coding!
 
 **Resources :**
-
+```
 Install NPM - [https://www.npmjs.com/package/npm-install](http://)
 Install Node.js - [https://nodejs.org/en/](http://)
 Gihub Repo - [ https://github.com/SMakaiTakori/ServerSideJS](http://)
-
+```
